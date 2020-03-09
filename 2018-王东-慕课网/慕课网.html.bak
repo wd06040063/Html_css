@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>慕课网-程序员的梦工厂</title>
+  <link rel="icon" href="image/图标.ico" type="image/x-icon"/>
+
+ </head>
+ <style>
+ 
+ </style>
+ <body>
+  <div class="header" id="header">
+  <div id="logo" class="logo">
+  	<a href="https://www.imooc.com" target="_self" title='首页'><img src="image/logo.jpg" /></a>
+	</div>
+	<ul class="nav-item">
+	<li>
+                <a href="/course/list" target="_self">免费课程</a>
+            </li>
+	<li><a href="//class.imooc.com" class="program-nav " target="_self">职业路径<i class="icn-new"></i></a></li>
+	<li>
+                <a href="//coding.imooc.com" target="_self">实战</a>
+            </li>
+			<li><a href="/wenda" target="_self">猿问</a></li>
+<li><a href="/article" target="_self">手记</a></li>
+	</ul>
+	
+<div id="login-area">
+<ul>
+<li class="app-load"><a href="//www.imooc.com/mobile/app" target="_blank" style="float:right;width:60px; color:black; text-decoration: none;">下载APP</a></li>
+<li class="app-load"><a href="//www.imooc.com/mobile/app" target="_blank" style="float:right;width:60px; color:black; text-decoration: none;">购物车</a></li>
+</ul>
+	<input class="search-input" type="text"><input class="btn" type="submit" value="搜索"/>
+	</ul>
+  </div>
+ </div>
+  <div id="main" class="main">
+	<div class="biaotilan">
+	<ul>
+		<li><a href="">前端开发&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp></a></li>
+		<li><a href="">后端开发&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp></a></li>
+		<li><a href="">移动开发&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp></a></li>
+		<li><a href="">数据库&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp></a></li>
+		<li><a href="">云计算&大数据&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp></a></li>
+		<li><a href="">运维&测试&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp></a></li>
+		<li><a href="">UI设计&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp></a></li>
+		</ul>
+	</div>
+	<div class="g-banner-content">
+	  <link href="css/home.css" rel="stylesheet" type="text/css"> 
+  <script type="text/javascript">
+setInterval(show,2000);//每隔2秒改变一次
+function show()
+{
+var number = Math.ceil(Math.random()*6);//有几张图片就乘以几
+document.getElementById("g-banner-box").src="image/fime"+number+".jpg";//随机显示的话可以用随机函数来生成相应的图片名
+}
+</script>
+		<img id="g-banner-box" class="g-banner-box">
+			
+
+			
+		</div>
+			
+
+  </div>
+  </div>
+ </body>
+</html>
